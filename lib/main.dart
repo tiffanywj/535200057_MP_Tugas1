@@ -21,8 +21,7 @@ class MyApp extends StatelessWidget {
           child: Column(
             children: const[
               Image(
-                image: NetworkImage(
-                  'https://cdn.pixabay.com/photo/2017/06/05/19/10/hallstatt-2374936_960_720.jpg'),
+                image: AssetImage('images/logo.png'),
               ),
               Text('Hello World!'),
             ],
